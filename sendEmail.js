@@ -1,6 +1,6 @@
 //https://formspree.io/f/mrgjypvn
 
-const form = document.getElementById("form")
+const form = document.getElementById('form')
 
 async function handleSendEmail(event) {
   event.preventDefault()
