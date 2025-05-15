@@ -1,4 +1,4 @@
-//https://formspree.io/f/mrgjypvn
+//https://formspree.io/f/xkgrkozg
 
 const form = document.getElementById('form')
 
@@ -7,7 +7,7 @@ async function handleSendEmail(event) {
 
   const fd = new FormData(this)
 
-  const response = await fetch('https://formspree.io/f/mrgjypvn', {
+  const response = await fetch('https://formspree.io/f/xkgrkozg', {
     method: 'POST',
     body: fd,
     headers: {
